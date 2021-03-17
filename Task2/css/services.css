@@ -1,0 +1,188 @@
+@font-face{
+    font-family: content-text;
+    src: url('fonts/TREBUCBD.ttf');
+  }
+  @font-face{
+    font-family: heading-text;
+    src: url('fonts/trebuc.ttf');
+  }
+  body, html {
+    height: 100%;
+    margin: 0;
+    background: url("images/bg.jpg") no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      background-size: cover;
+  }
+  .logo{
+    display: block;
+    margin-top: -34px;
+    margin-left: 10px;
+    text-decoration: none;
+    float: left;
+  }
+  .logo-width{
+    width: 100%;
+    margin: -5px;
+  }
+  .highlight{
+    color:#B1DFF9;
+    margin-left: 25px;
+    font-family:heading-text;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  .highlight-text{
+    color:#B1DFF9;
+    font-family:heading-text;
+  }
+  .contact{
+    color:white;
+  }
+  nav {
+    margin-top: 32px;
+    /*margin-left: 127px;*/
+    width: 67%;
+    height: 70px;
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid black;
+    box-shadow: inset 0px 0px 0px 1px rgb(85, 85, 85);
+    margin: auto;
+}
+nav ul {
+  display: block;
+    overflow: hidden;
+    margin: 0;
+    padding-left:0px ;
+}
+nav ul li {
+  display: inline-block;
+    list-style: none;
+    text-align: center;
+    box-sizing: border-box;
+}
+nav ul li a {
+    display: inline-block;
+    font-family: heading-text;
+    text-decoration: none;
+    color:#B1DFF9;
+    font-size: 20px;
+    margin-right: 12px;
+}
+nav ul li.add-border{
+border-right: 1px solid white ;
+margin: 27px 8px;
+}
+nav ul li.no-border{
+  margin: 27px 8px;
+    }
+  .help-block{
+    font-family:content-text;
+    font-size:11px;
+    background-color:#152d4d;
+    color:white;
+    padding-top:17px;
+    padding-bottom:20px;
+    padding-left:40px;
+    margin-left: 0px;
+    width: 85%;
+    height: 40px;
+    margin-top:-9px;
+  }
+  button{
+    font-family:content-text;
+    font-size:80%;
+    background-color:#1D577A;
+    padding-left:14px;
+    padding-top:2px;
+    border: none;
+    border-radius: 4px;
+    color:#C9E7FF;
+    margin-top: 8px;
+    letter-spacing: 1px;
+    height:60%;
+  }
+  .copyright-block{
+    font-family: content-text;
+    font-size:12px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color:#CFDEF3;
+    text-align: center;
+    width: 67%;
+    margin: auto;
+    height: 22px;
+    word-spacing: 4px;
+    margin-top: 46%;
+  }
+  .title-block{
+    font-family:content-text;
+    font-size:73%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+    padding:8px 0px 18px 10px;
+    margin-top: 0px;
+    margin-left:60%;
+    width: 23%;
+  }
+  .title ul li{
+    display: block;
+    list-style: none;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .title ul li a{
+    text-decoration: none;
+    color: white;
+    margin-right: 6px;
+  }
+  .title ul li.separate-list{
+    border-right: 1px solid white ;
+    margin: 0px 5px;
+      }
+      .title ul li.no-border{
+        margin: 0px 5px;
+          }
+  .column {
+  height: 75%;
+  float: left;
+}
+.col1 {
+    width: 20%;
+    position: absolute;
+    left: 16%;
+    margin-top: 50px;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.col2 {
+    width: 48%;
+    position: absolute;
+    left: 36%;
+    margin-top: 50px;
+	background-color:rgba(0, 0, 0, 0.7);
+}
+.images{
+    width: 85%;
+    margin-top: 30px;
+    margin-left: 25px;
+  }
+  .horizontal-bar{
+    width: 240px;opacity: 0.4;margin-left: 25px;
+  }
+  .horizontal-border-top{
+    width: 90%;opacity: 0.4;margin-left:0px;
+  }
+  .horizontal-border-bottom{
+    width: 90%;opacity: 0.4;margin-left:0px;margin-top: -14px;
+  }
+  .img-margin{
+    margin-top: 15px;
+  }
+  .heading{
+    padding-top: 10px;letter-spacing: 2px; color: #B1DFF9;font-size: 20px;font-family: heading-text;
+  }
+  .services-content{
+    font-family: content-text;color: white;line-height: 1.6;font-size:15px;letter-spacing: 1px;
+  }
+  .request-button{
+    font-size: 100%;
+  }

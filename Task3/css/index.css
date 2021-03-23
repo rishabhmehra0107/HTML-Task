@@ -352,7 +352,7 @@ body, html {
       letter-spacing: 1px;
       color: #b6b4b5;
       font-weight: 600;
-      line-height: 2;
+      line-height: 1.6;
       font-size: 12px;
     }
     .right {
@@ -362,7 +362,7 @@ body, html {
       color: white;
       border: 6px solid transparent;
       box-shadow: inset 0px 0px 0px 1px rgb(85, 85, 85);
-      padding: 0% 2% 0.3% 2%;
+      padding: 0% 2% 1.9% 2%;
       margin-left: -1px;
     }
     .details{
